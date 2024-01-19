@@ -119,7 +119,7 @@ def create_loan_view(request):
                 loan_id = loan_data_obj.loan_id
             else:
                 monthly_installment = None
-                msg = "Load not approved as credit score is less"
+                msg = "Loan not approved as credit score is less"
 
             data_dict = {
                 "loan_id": loan_id,
